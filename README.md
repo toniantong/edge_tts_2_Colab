@@ -1,4 +1,5 @@
-# edge_tts_2_Colab
+# Edge_tts_2_Colab
+
 ```python
 !pip install edge-tts
 ```
