@@ -19,7 +19,7 @@ nest_asyncio.apply()
 
 # 創建文本輸入小部件
 text_input = widgets.Textarea(
-    value='全世界, 你們好',
+    value='這是一個文字轉語音的範例',
     placeholder='請輸入要轉換為語音的文字',
     description='文字:',
     disabled=False,
@@ -34,7 +34,7 @@ voice_selector = widgets.Dropdown(
         ('廣東話女聲2', 'zh-HK-HiuGaaiNeural'),
         ('日文女聲', 'ja-JP-NanamiNeural')
     ],
-    value='zh-HK-WanLungNeural',
+    value='zh-HK-HiuMaanNeural',
     description='語音:',
     disabled=False,
 )
